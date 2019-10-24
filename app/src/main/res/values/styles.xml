@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CircleTimerPickerDefStyle">
+        <item name="bigCircleRadius">150dp</item>
+        <item name="smallCircleRadius">30dp</item>
+        <item name="smallCircleColor">@android:color/white</item>
+        <item name="bigCircleColor">@android:color/white</item>
+        <item name="textColor">@android:color/white</item>
+        <item name="textSize">50dp</item>
+        <item name="typeRelation">internal_tangent</item>
+        <item name="bigCirclePaintWidth">5dp</item>
+    </style>
+</resources>

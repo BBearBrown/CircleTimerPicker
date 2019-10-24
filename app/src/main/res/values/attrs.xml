@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleTimerPickerStyle">
+        <attr name="bigCircleRadius" format="dimension" />
+        <attr name="bigCircleColor" format="color|reference" />
+        <attr name="bigCirclePaintWidth" format="dimension" />
+        <attr name="smallCircleRadius" format="dimension" />
+        <attr name="smallCircleColor" format="color|reference" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="typeRelation">
+            <flag name="internal_tangent" value="0" />
+            <flag name="externally_tangent" value="1" />
+            <flag name="intersect" value="2" />
+        </attr>
+        <attr name="android:gravity"/>
+    </declare-styleable>
+</resources>
